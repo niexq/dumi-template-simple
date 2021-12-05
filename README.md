@@ -22,9 +22,12 @@
   <a href="https://gitmoji.dev">
     <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
   </a>
+  <a href="https://github.com/umijs/dumi">
+    <img src="https://img.shields.io/badge/docs%20by-dumi-blue" alt="dumi">
+  </a>
 </p>
 
-> 基于dumi-template为组件开发场景而生的文档模板
+> 基于 dumi-template 为组件开发场景而生的文档模板
 
 简体中文 | [English](./README.en-US.md)
 
@@ -73,7 +76,6 @@ export default () => <FirstDemo title="First Demo" />;
 ## 🤝 贡献
 
 欢迎投稿、问题和功能请求！<br />随时检查 [issues](https://github.com/niexq/dumi-template-simple/issues).
-
 
 ## ❤️ 表达您的支持
 
