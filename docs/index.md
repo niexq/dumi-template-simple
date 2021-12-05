@@ -1,12 +1,12 @@
 ---
-title: dumi - A doc tool can assist you to develop libraries & write docs.
+title: dumi-template-simple - A doc tool can assist you to develop libraries & write docs.
 order: 10
 hero:
-  title: dumi
+  title: dumi-template-simple
   desc: 📖 A doc tool can assist you to develop libraries & write docs.
   actions:
     - text: Getting Started
-      link: /components/foo
+      link: /components/firstDemo
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
     title: Out of the box
@@ -29,29 +29,24 @@ features:
 footer: Open-source MIT Licensed | Copyright © 2019-present<br />Powered by self
 ---
 
-## Getting Started
-
-Create first doc in manual way
+## 📦 Install
 
 ```bash
-// Create dir for libraries
-$ mkdir library && cd library
-
-// Install dumi
-$ npm i dumi
-
-// Create docs
-$ mkdir docs && echo '# Hello dumi!' > docs/index.md
-
-// Preview docs
-$ npx dumi dev
+  yarn add dumi-template-simple  # or npm i dumi-template-simple -S
 ```
 
-## Feedback
+## 🔨 Use
 
-Please visit [GitHub](https://github.com/umijs/dumi) or join the discuss group
+```tsx | pure
+import React from 'react';
+import { FirstDemo } from 'dumi-template-simple';
 
-<div>
-  <img data-type="dingtalk" src="https://gw.alipayobjects.com/zos/bmw-prod/ec249703-be12-416c-8f33-297e47d9439c/kjy5ls84_w1004_h1346.png" width="300" />
-  <img data-type="wechat" src="https://gw.alipayobjects.com/zos/bmw-prod/c18bc2a5-719a-48ca-b225-c79ef88bfb43/k7m10ymd_w1004_h1346.jpeg" width="300" />
-</div>
+export default () => <FirstDemo title="First Demo" />;
+```
+## 🔑 Feedback
+
+Please visit [GitHub](https://github.com/niexq/dumi-template-simple) or join the discuss group
+
+| Github Issue | dingtalk |
+| --- | --- |
+| [dumi-template-simple/issues](https://github.com/niexq/dumi-template-simple/issues) | <img src="https://raw.githubusercontent.com/niexq/picbed/main/picgo/reactdingdingqrcode.jpeg" width="150" /> |

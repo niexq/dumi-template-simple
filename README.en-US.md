@@ -26,7 +26,7 @@
 
 > 基于dumi-template为组件开发场景而生的文档模板
 
-简体中文 | [English](./README.en-US.md)
+简体中文 | [English](./README.md)
 
 ### 🏠 [主页预览](https://niexq.github.io/dumi-template-simple)
 

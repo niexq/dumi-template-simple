@@ -8,6 +8,7 @@
 /package-lock.json
 
 # production
+/lib
 /dist
 /docs-dist
 
@@ -19,3 +20,12 @@
 .umi-production
 .umi-test
 .env.local
+
+# coverage
+/coverage
+
+# screenshot
+screenshot
+.eslintcache
+.changelog
+.changelog.md
