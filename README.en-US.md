@@ -33,7 +33,7 @@
 
 ### 🏠 [主页预览](https://niexq.github.io/dumi-template-simple)
 
-![](https://raw.githubusercontent.com/niexq/picbed/main/picgo/dumi-template-simple-zh-CN.gif)
+![](https://raw.githubusercontent.com/niexq/picbed/main/picgo/dumi-template-simple.gif)
 
 ## 📒 目录介绍
 
